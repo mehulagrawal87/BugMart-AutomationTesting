@@ -1,0 +1,375 @@
+{
+  "users": [
+    {
+      "id": "usr_001",
+      "name": "Alex Morgan",
+      "email": "tester@example.com",
+      "password": "Test@123",
+      "phone": "9876543210",
+      "address": "742 Evergreen Terrace",
+      "city": "Springfield",
+      "state": "Oregon",
+      "pinCode": "97477",
+      "role": "customer",
+      "createdAt": "2026-08-15T10:30:00.000Z"
+    },
+    {
+      "id": "usr_002",
+      "name": "Sarah Jenkins",
+      "email": "admin@example.com",
+      "password": "Admin@123",
+      "phone": "9123456780",
+      "address": "100 Enterprise Way, Suite 400",
+      "city": "San Francisco",
+      "state": "California",
+      "pinCode": "94105",
+      "role": "admin",
+      "createdAt": "2026-07-01T09:00:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "AeroBeat Pro Wireless Headphones",
+      "category": "Electronics",
+      "price": 129.99,
+      "originalPrice": 179.99,
+      "rating": 4.7,
+      "reviewCount": 128,
+      "stock": 18,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop&q=80",
+      "description": "Premium active noise-cancelling over-ear headphones with 40-hour battery life and spatial audio support.",
+      "features": ["Active Noise Cancellation", "40-Hour Battery", "Bluetooth 5.3", "Quick Charge (10m = 4h)"],
+      "badge": "Best Seller"
+    },
+    {
+      "id": 2,
+      "name": "Titan Pulse Smart Fitness Watch",
+      "category": "Wearables",
+      "price": 89.50,
+      "originalPrice": 119.00,
+      "rating": 4.5,
+      "reviewCount": 94,
+      "stock": 25,
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&auto=format&fit=crop&q=80",
+      "description": "Sleek fitness smartwatch equipped with AMOLED display, continuous heart-rate tracking, sleep insights, and 5ATM water resistance.",
+      "features": ["1.4-inch AMOLED Display", "SpO2 & Heart Rate Monitor", "50+ Sport Modes", "7-Day Battery"],
+      "badge": "Popular"
+    },
+    {
+      "id": 3,
+      "name": "Lumina RGB Mechanical Gaming Keyboard",
+      "category": "Electronics",
+      "price": 64.99,
+      "originalPrice": 85.00,
+      "rating": 4.8,
+      "reviewCount": 210,
+      "stock": 12,
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80",
+      "description": "Tactile mechanical gaming keyboard with hot-swappable switches, sound dampening foam, and customizable per-key RGB backlighting.",
+      "features": ["Hot-swappable switches", "Per-key RGB lighting", "Detachable Type-C cable", "Aluminum top frame"],
+      "badge": "Top Rated"
+    },
+    {
+      "id": 4,
+      "name": "ErgoFlow Precision Wireless Mouse",
+      "category": "Electronics",
+      "price": 42.00,
+      "originalPrice": 49.99,
+      "rating": 4.4,
+      "reviewCount": 65,
+      "stock": 30,
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80",
+      "description": "Ergonomic vertical wireless mouse designed to reduce wrist strain with adjustable DPI up to 4000 and silent clicks.",
+      "features": ["Natural ergonomic grip", "Silent click switches", "Dual Bluetooth & 2.4G", "Rechargeable via USB-C"],
+      "badge": "Sale"
+    },
+    {
+      "id": 5,
+      "name": "Nordic Minimalist Ceramic Coffee Mug",
+      "category": "Home & Living",
+      "price": 18.50,
+      "originalPrice": 24.00,
+      "rating": 4.6,
+      "reviewCount": 53,
+      "stock": 45,
+      "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600&auto=format&fit=crop&q=80",
+      "description": "Handcrafted matte ceramic coffee mug with heat-insulating wooden coaster, holding up to 350ml of your favorite brew.",
+      "features": ["Handcrafted ceramic", "350ml capacity", "Dishwasher safe", "Includes wood saucer"],
+      "badge": "New"
+    },
+    {
+      "id": 6,
+      "name": "Bamboo Eco-Friendly Desk Organizer",
+      "category": "Home & Living",
+      "price": 28.00,
+      "originalPrice": 35.00,
+      "rating": 4.3,
+      "reviewCount": 42,
+      "stock": 19,
+      "image": "https://images.unsplash.com/photo-1584727638096-042c45049ebe?w=600&auto=format&fit=crop&q=80",
+      "description": "Natural bamboo multi-compartment organizer for pens, sticky notes, phone stand, and cable management.",
+      "features": ["100% natural bamboo", "Integrated phone dock", "Compact footprint", "Water-resistant finish"],
+      "badge": ""
+    },
+    {
+      "id": 7,
+      "name": "Aura Ultra-Quiet Essential Oil Diffuser",
+      "category": "Home & Living",
+      "price": 36.99,
+      "originalPrice": 48.00,
+      "rating": 4.7,
+      "reviewCount": 88,
+      "stock": 15,
+      "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=600&auto=format&fit=crop&q=80",
+      "description": "Ultrasonic cool mist aromatherapy diffuser with 7 ambient LED light colors and auto shut-off safety mode.",
+      "features": ["500ml water tank", "Whisper quiet (<25dB)", "Auto shut-off timer", "7 LED colors"],
+      "badge": "Featured"
+    },
+    {
+      "id": 8,
+      "name": "Venture Classic Canvas Weekender Bag",
+      "category": "Apparel & Footwear",
+      "price": 74.50,
+      "originalPrice": 95.00,
+      "rating": 4.6,
+      "reviewCount": 112,
+      "stock": 10,
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&auto=format&fit=crop&q=80",
+      "description": "Durable heavy-duty water-resistant waxed canvas duffel bag with genuine leather handles and dedicated shoe compartment.",
+      "features": ["Water-resistant canvas", "Leather trims & accents", "Separate shoe pouch", "Luggage trolley sleeve"],
+      "badge": "Best Seller"
+    },
+    {
+      "id": 9,
+      "name": "CloudStrider Cushioned Running Shoes",
+      "category": "Apparel & Footwear",
+      "price": 110.00,
+      "originalPrice": 140.00,
+      "rating": 4.5,
+      "reviewCount": 140,
+      "stock": 20,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop&q=80",
+      "description": "Breathable knit upper running trainers engineered with responsive foam cushioning and anti-slip rubber traction soles.",
+      "features": ["High rebound foam sole", "Breathable mesh upper", "Padded collar support", "Lightweight (280g)"],
+      "badge": "Popular"
+    },
+    {
+      "id": 10,
+      "name": "ThermalCore Insulated Stainless Steel Bottle",
+      "category": "Home & Living",
+      "price": 22.00,
+      "originalPrice": 29.99,
+      "rating": 4.9,
+      "reviewCount": 310,
+      "stock": 50,
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600&auto=format&fit=crop&q=80",
+      "description": "Double-wall vacuum insulated 750ml flask that keeps drinks ice cold for 24 hours or piping hot for 12 hours.",
+      "features": ["Double-wall vacuum seal", "18/8 food grade steel", "Leak-proof sport lid", "BPA-free & rust proof"],
+      "badge": "Top Rated"
+    },
+    {
+      "id": 11,
+      "name": "Apex SoundBar 2.1 with Subwoofer",
+      "category": "Electronics",
+      "price": 149.99,
+      "originalPrice": 199.99,
+      "rating": 4.4,
+      "reviewCount": 77,
+      "stock": 8,
+      "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=600&auto=format&fit=crop&q=80",
+      "description": "Deep cinema bass with Dolby Digital compatibility, wireless Bluetooth streaming, HDMI ARC, and optical input.",
+      "features": ["120W Peak Output", "Wireless Subwoofer", "HDMI ARC & Optical inputs", "Equalizer presets"],
+      "badge": "Sale"
+    },
+    {
+      "id": 12,
+      "name": "Voyager Polarized Aviator Sunglasses",
+      "category": "Wearables",
+      "price": 38.00,
+      "originalPrice": 50.00,
+      "rating": 4.5,
+      "reviewCount": 89,
+      "stock": 22,
+      "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&auto=format&fit=crop&q=80",
+      "description": "Timeless metal frame sunglasses featuring scratch-resistant TAC polarized UV400 lenses and adjustable silicone nose pads.",
+      "features": ["100% UV400 protection", "TAC polarized lenses", "Ultra-light stainless frame", "Hard carrying case"],
+      "badge": ""
+    },
+    {
+      "id": 13,
+      "name": "Leathercraft Vintage Hardcover Journal",
+      "category": "Books & Stationery",
+      "price": 24.99,
+      "originalPrice": 32.00,
+      "rating": 4.8,
+      "reviewCount": 165,
+      "stock": 35,
+      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+      "description": "Refillable rustic genuine leather notebook with 240 lined archival kraft pages, pen holder loop, and ribbon bookmark.",
+      "features": ["Thick 120gsm paper", "No ink bleed-through", "Genuine crazy horse leather", "Ribbon bookmark"],
+      "badge": "Best Seller"
+    },
+    {
+      "id": 14,
+      "name": "Precision Technical Drawing Fineliner Pens (Set of 8)",
+      "category": "Books & Stationery",
+      "price": 16.00,
+      "originalPrice": 22.00,
+      "rating": 4.6,
+      "reviewCount": 98,
+      "stock": 40,
+      "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=600&auto=format&fit=crop&q=80",
+      "description": "Micro pigment ink fineliners ranging from 0.05mm to 0.8mm and brush tip for sketching, drafting, and journaling.",
+      "features": ["Waterproof archival ink", "Quick drying & smear proof", "8 varied tip sizes", "Durable metal nibs"],
+      "badge": "Staff Pick"
+    },
+    {
+      "id": 15,
+      "name": "Urban Grid Organic Cotton Graphic Tee",
+      "category": "Apparel & Footwear",
+      "price": 29.99,
+      "originalPrice": 38.00,
+      "rating": 4.3,
+      "reviewCount": 47,
+      "stock": 28,
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=600&auto=format&fit=crop&q=80",
+      "description": "100% GOTS-certified ring-spun organic cotton crewneck t-shirt with screen-printed minimalist geometric artwork.",
+      "features": ["100% organic cotton", "Pre-shrunk fabric", "Ribbed collar", "Tagless comfort"],
+      "badge": ""
+    },
+    {
+      "id": 16,
+      "name": "ProForm Resistance Exercise Band Set",
+      "category": "Wearables",
+      "price": 19.99,
+      "originalPrice": 28.00,
+      "rating": 4.7,
+      "reviewCount": 204,
+      "stock": 35,
+      "image": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=600&auto=format&fit=crop&q=80",
+      "description": "Set of 5 color-coded natural latex loop bands offering 5 to 40 lbs of resistance for home workouts, pilates, and physical therapy.",
+      "features": ["100% natural latex", "5 resistance levels", "Non-slip texture", "Portable mesh travel bag"],
+      "badge": "Popular"
+    },
+    {
+      "id": 17,
+      "name": "Studio Master Studio Condenser Microphone",
+      "category": "Electronics",
+      "price": 95.00,
+      "originalPrice": 125.00,
+      "rating": 4.6,
+      "reviewCount": 73,
+      "stock": 14,
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&auto=format&fit=crop&q=80",
+      "description": "Cardioid studio microphone kit with desktop boom arm, shock mount, pop filter, and zero-latency monitoring jack.",
+      "features": ["Cardioid pickup pattern", "192kHz/24bit sampling rate", "Zero latency monitoring", "Plug & play USB"],
+      "badge": "Featured"
+    },
+    {
+      "id": 18,
+      "name": "Artisan Ceramic Pour-Over Coffee Maker",
+      "category": "Home & Living",
+      "price": 32.50,
+      "originalPrice": 42.00,
+      "rating": 4.8,
+      "reviewCount": 81,
+      "stock": 16,
+      "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=600&auto=format&fit=crop&q=80",
+      "description": "Slow drip ceramic coffee dripper cone with spiral ribs to maximize water flow and extract balanced, rich coffee flavors.",
+      "features": ["Heat-retaining ceramic", "Internal spiral ridges", "Fits standard #02 filters", "Brew 1-4 cups"],
+      "badge": "New"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-94812",
+      "userId": "usr_001",
+      "userEmail": "tester@example.com",
+      "customerName": "Alex Morgan",
+      "items": [
+        {
+          "productId": 1,
+          "name": "AeroBeat Pro Wireless Headphones",
+          "price": 129.99,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop&q=80"
+        },
+        {
+          "productId": 5,
+          "name": "Nordic Minimalist Ceramic Coffee Mug",
+          "price": 18.50,
+          "quantity": 2,
+          "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600&auto=format&fit=crop&q=80"
+        }
+      ],
+      "subtotal": 166.99,
+      "discount": 16.70,
+      "couponCode": "SAVE10",
+      "tax": 12.02,
+      "shipping": 0.00,
+      "total": 162.31,
+      "shippingAddress": {
+        "address": "742 Evergreen Terrace",
+        "city": "Springfield",
+        "state": "Oregon",
+        "pinCode": "97477",
+        "phone": "9876543210"
+      },
+      "paymentMethod": "Credit Card",
+      "status": "Delivered",
+      "createdAt": "2026-08-28T14:20:00.000Z"
+    },
+    {
+      "id": "ORD-95104",
+      "userId": "usr_001",
+      "userEmail": "tester@example.com",
+      "customerName": "Alex Morgan",
+      "items": [
+        {
+          "productId": 13,
+          "name": "Leathercraft Vintage Hardcover Journal",
+          "price": 24.99,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80"
+        }
+      ],
+      "subtotal": 24.99,
+      "discount": 0.00,
+      "couponCode": "",
+      "tax": 2.00,
+      "shipping": 4.99,
+      "total": 31.98,
+      "shippingAddress": {
+        "address": "742 Evergreen Terrace",
+        "city": "Springfield",
+        "state": "Oregon",
+        "pinCode": "97477",
+        "phone": "9876543210"
+      },
+      "paymentMethod": "Cash on Delivery",
+      "status": "Processing",
+      "createdAt": "2026-09-02T11:15:00.000Z"
+    }
+  ],
+  "coupons": [
+    {
+      "code": "SAVE10",
+      "type": "percentage",
+      "value": 10,
+      "minOrder": 40.00
+    },
+    {
+      "code": "FIRST20",
+      "type": "percentage",
+      "value": 20,
+      "minOrder": 60.00
+    },
+    {
+      "code": "FREESHIP",
+      "type": "shipping",
+      "value": 4.99,
+      "minOrder": 20.00
+    }
+  ]
+}

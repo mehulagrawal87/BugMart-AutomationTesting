@@ -1,0 +1,14 @@
+{
+  "name": "qa-practice-store",
+  "version": "1.0.0",
+  "description": "QA Practice Store - Manual Testing Playground",
+  "scripts": {
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"blue,green\" \"npm --prefix server start\" \"npm --prefix client run dev\"",
+    "start": "node server/server.js",
+    "build": "npm --prefix client install && npm --prefix client run build && npm --prefix server install",
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
