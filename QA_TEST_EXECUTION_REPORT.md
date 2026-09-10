@@ -4,7 +4,7 @@
 **Live Environment:** [https://bugmart-manualtesting.onrender.com](https://bugmart-manualtesting.onrender.com)  
 **Test Cycle:** Sprint 1 — End-to-End Functional, Regression & Edge-Case Testing  
 **Execution Date:** September 11, 2026  
-**QA Lead / Tester:** Pair Programming QA Subagent  
+**QA Lead / Tester:** Mehul Agrawal  
 
 ---
 

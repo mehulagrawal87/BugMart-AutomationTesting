@@ -1,5 +1,11 @@
 # 🛒 BugMart - Manual Testing Playground
 
+> **🌐 Live Production Website:** [https://bugmart-manualtesting.onrender.com](https://bugmart-manualtesting.onrender.com)  
+> **👨‍💻 QA Tester & Author:** Mehul Agrawal  
+> **📂 Test Cases Suite:** [`BugMart_Test_Cases.csv`](./BugMart_Test_Cases.csv)  
+> **🐞 Defect Log Tracker:** [`BugMart_Defect_Log.csv`](./BugMart_Defect_Log.csv)  
+> **📊 Full QA Execution Report:** [`QA_TEST_EXECUTION_REPORT.md`](./QA_TEST_EXECUTION_REPORT.md)  
+
 A purpose-built, full-stack e-commerce web application engineered specifically for **Software QA Engineers, Manual Testers, and QA Students** to practice manual test case design, exploratory testing, boundary testing, and bug logging.
 
 ---
