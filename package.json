@@ -1,7 +1,7 @@
 {
-  "name": "qa-practice-store",
+  "name": "bugmart",
   "version": "1.0.0",
-  "description": "QA Practice Store - Manual Testing Playground",
+  "description": "BugMart - Manual Testing Playground",
   "scripts": {
     "dev": "concurrently -n \"SERVER,CLIENT\" -c \"blue,green\" \"npm --prefix server start\" \"npm --prefix client run dev\"",
     "start": "node server/server.js",

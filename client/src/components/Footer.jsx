@@ -19,7 +19,7 @@ export default function Footer({ onNavigate, onOpenTestData }) {
             }}>
               <ShoppingBag size={18} />
             </div>
-            <span style={{ color: 'white', fontWeight: 800, fontSize: '1.2rem' }}>QA Practice Store</span>
+            <span style={{ color: 'white', fontWeight: 800, fontSize: '1.2rem' }}>BugMart</span>
           </div>
           <p style={{ fontSize: '0.9rem', lineHeight: 1.6, maxWidth: '320px', color: '#94a3b8' }}>
             A comprehensive, modern e-commerce training web application created specifically for practicing manual QA testing, defect identification, test case design, and bug reporting.
@@ -69,7 +69,7 @@ export default function Footer({ onNavigate, onOpenTestData }) {
 
       <div className="footer-bottom">
         <div>
-          &copy; {new Date().getFullYear()} QA Practice Store. Designed for Manual QA Testers.
+          &copy; {new Date().getFullYear()} BugMart. Designed for Manual QA Testers.
         </div>
         <div style={{ display: 'flex', gap: '1.5rem' }}>
           <span>Deterministic Test Environment</span>

@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: qa-practice-store
+    name: bugmart
     runtime: node
     plan: free
     buildCommand: npm run build

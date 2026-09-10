@@ -40,8 +40,8 @@ export default function Navbar({ onNavigate, currentPage, onOpenTestData }) {
           <div className="logo-icon">
             <ShoppingBag size={22} />
           </div>
-          <span style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-            QA Store <span className="badge-qa">Practice</span>
+          <span style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', fontWeight: 800 }}>
+            BugMart <span className="badge-qa">QA</span>
           </span>
         </div>
 

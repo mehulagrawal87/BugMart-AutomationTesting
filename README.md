@@ -1,4 +1,4 @@
-# 🛒 QA Practice Store - Manual Testing Playground
+# 🛒 BugMart - Manual Testing Playground
 
 A purpose-built, full-stack e-commerce web application engineered specifically for **Software QA Engineers, Manual Testers, and QA Students** to practice manual test case design, exploratory testing, boundary testing, and bug logging.
 

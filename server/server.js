@@ -60,5 +60,5 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`QA Practice Store API Server running on port ${PORT}`);
+  console.log(`BugMart API Server running on port ${PORT}`);
 });
